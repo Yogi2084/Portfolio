@@ -22,18 +22,18 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-gray-700 mt-20">
+    <footer className="bg-gray-700 mt-10">
       <div className="mx-auto w-full max-w-screen-xl px-4 py-6">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 text-center md:text-left">
           {/* Left: Copyright */}
-          <div className="text-sm text-gray-400 md:items-center">
+          <div className="text-sm text-gray-400 md:items-center ">
             Copyright © {new Date().getFullYear()} — All rights reserved by 
             <span> Yogananda K S</span>
           </div>
 
           {/* Center: Navigation */}
-          <div className="flex justify-center gap-6 text-sm underline underline-offset-4 text-white">
-            <NavLink to="/attributions" className="hover:text-white transition">
+          <div className="flex justify-center gap-6 text-sm underline underline-offset-4 text-white md:ite">
+            <NavLink to="/attributions" className="hover:text-white transition ">
               Attributions
             </NavLink>
             <NavLink to="/shout-outs" className="hover:text-white transition">
