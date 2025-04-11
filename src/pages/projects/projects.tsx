@@ -12,13 +12,15 @@ const Projects = () => {
       projectUrl:
         "https://github.com/Mahesh5726/Early-Disease-Detection-in-Potato-Plant-using-Deep-Learning-for-Precise-Agriculture",
       description:
-        " Developed a system to detect early diseases in potato plants using deep learning.",
+        "Developed a system to detect early diseases in potato plants using deep learning.",
+        
     },
     {
       title: "LPG Leakage Detection using MQ-5 sensor and Arduino UNO 🚨",
       projectUrl: "",
       description:
-        " Developed a system to detect LPG leakage using MQ-5 sensor and Arduino UNO.",
+        "Developed a system to detect LPG leakage using MQ-5 sensor and Arduino UNO.",
+      highlight: true, 
     },
   ];
 
@@ -37,6 +39,7 @@ const Projects = () => {
             title={item.title}
             projectUrl={item.projectUrl}
             description={item.description}
+            highlight={item.highlight}
           />
         ))}
       </div>
