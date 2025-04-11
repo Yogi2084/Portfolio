@@ -26,7 +26,7 @@ const Hero = () => {
   return (
     <div className="w-full px-4 flex flex-col md:flex-row items-center md:items-start justify-center gap-4 max-w-screen-md mx-auto  ">
       <img
-        src="../../public/profile.jpeg"
+        src="/profile.jpeg"
         alt="yogananda"
         className="rounded-full w-38 h-38 object-cover border p-1"
       />
