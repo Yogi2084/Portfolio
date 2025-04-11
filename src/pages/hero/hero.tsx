@@ -1,7 +1,6 @@
 import { BiLogoInstagramAlt } from "react-icons/bi";
 import { VscGithubInverted } from "react-icons/vsc";
-import { FaXTwitter, FaLinkedin } from "react-icons/fa6";
-import { SiLeetcode } from "react-icons/si";
+import {  FaLinkedin } from "react-icons/fa6";
 
 const Hero = () => {
   const socialLinks = [
